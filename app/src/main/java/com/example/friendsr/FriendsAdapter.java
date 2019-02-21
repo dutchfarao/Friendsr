@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class FriendsAdapter extends ArrayAdapter<Friend> {
 
 
-    ArrayList<Friend> rappers;
+    public ArrayList<Friend> rappers;
     public FriendsAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Friend> objects) {
         super(context, resource, objects);
         rappers = objects;
@@ -27,11 +27,11 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.grid_item, parent, false);
         }
-        ImageView rapperimageview = convertView.findViewById(R.id.rapperimageview);
-        TextView rappertxt = convertView.findViewById(R.id.rappertxt);
+        ImageView rapperImageView = convertView.findViewById(R.id.rapperimageview);
+        TextView rapperTxt = convertView.findViewById(R.id.rappertxt);
         Friend chooser = rappers.get(position);
-        rapperimageview.setImageResource(chooser.getDrawableId());
-        rappertxt.setText(chooser.getName());
+        rapperImageView.setImageResource(chooser.getDrawableId());
+        rapperTxt.setText(chooser.getName());
 
         return convertView;
     }

@@ -12,6 +12,7 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
+    public static final String TAG = "ProfileActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +57,11 @@ public class ProfileActivity extends AppCompatActivity {
         TextView profileName = findViewById(R.id.profileName);
         TextView profileBio = findViewById(R.id.profileBio);
         profileImage.setImageResource(rapperId);
+        Log.d(TAG, "setimage" + rapperId);
         profileName.setText(rapperName);
+        Log.d(TAG, "setname" + rapperName);
         profileBio.setText(rapperBio);
+        Log.d(TAG, "setBio" + rapperBio);
 
 
 
