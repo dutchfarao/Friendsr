@@ -9,15 +9,13 @@ Scroll through the rappers, select the one you want to check out and give them a
 
 ## Screenshots
 
+<img src="https://github.com/dutchfarao/friendsr/blob/master/doc/Screenshot1.png" width="200" height="400" /> 
 
-![ScreenShot1](https://github.com/dutchfarao/Friendsr/blob/master/doc/Screenshot1.png)
+<img src="https://github.com/dutchfarao/friendsr/blob/master/doc/Screenshot2.png" width="400" height="200" /> 
 
-![ScreenShot2](https://github.com/dutchfarao/Friendsr/blob/master/doc/Screenshot2.png)
+<img src="https://github.com/dutchfarao/friendsr/blob/master/doc/Screenshot3.png" width="400" height="200" /> 
 
-![ScreenShot3](https://github.com/dutchfarao/Friendsr/blob/master/doc/Screenshot3.png)
-
-![ScreenShot4](https://github.com/dutchfarao/Friendsr/blob/master/doc/Screenshot4.png)
-
+<img src="https://github.com/dutchfarao/friendsr/blob/master/doc/Screenshot4.png" width="200" height="400" /> 
 
 
 ```
